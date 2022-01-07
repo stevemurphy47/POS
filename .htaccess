@@ -1,0 +1,7 @@
+
+RewriteEngine On
+ 
+RewriteRule "hello" "user"
+RewriteRule "hoa.abc" "index.php"
+RewriteRule "http://localhost/pos/hoa.abc" "http://localhost/pos/index.php "
+RewriteRule "http://localhost/pos/hello/" "http://localhost/pos/user/"
